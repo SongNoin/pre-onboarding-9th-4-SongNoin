@@ -3,7 +3,7 @@ import { ITableData } from '../types/ITableData';
 
 export const getTableDataApi = async (date?: string) => {
   try {
-    const chartRes = await axios.get('/data/table_data.json');
+    const chartRes = await axios.get('data/table_data.json');
     if (chartRes.statusText === 'OK') {
       let tableData: ITableData[] = chartRes.data;
       if (date) {
