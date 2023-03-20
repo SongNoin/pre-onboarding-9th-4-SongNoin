@@ -15,9 +15,5 @@ export const MainPage = () => {
     const tableResData = await getTableDataApi(todayDate);
     tableResData && setTableData(tableResData);
   }
-  return (
-    <>
-      <MainTable tableData={tableData} />
-    </>
-  );
+  return <MainTable tableData={tableData} />;
 };

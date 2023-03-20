@@ -5,7 +5,7 @@ export const StyledMainTable = styled.div`
 
   table {
     border-spacing: 0;
-    border: 1px solid black;
+    border: 5px solid black;
     text-align: center;
 
     tr {
@@ -15,11 +15,10 @@ export const StyledMainTable = styled.div`
         }
       }
     }
-
     th,
     td {
       margin: 0;
-      padding: 0.5rem;
+      padding: 1rem;
       border-bottom: 1px solid black;
       border-right: 1px solid black;
 
@@ -30,6 +29,6 @@ export const StyledMainTable = styled.div`
   }
 
   .pagination {
-    padding: 0.5rem;
+    padding: 1rem;
   }
 `;
